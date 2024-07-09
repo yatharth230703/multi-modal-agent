@@ -1,0 +1,27 @@
+collect_symptoms_queries_task:
+  description: >
+    Collect information about user symptoms and queries through text inputs. Ensure that all relevant details are captured accurately to provide a comprehensive understanding of the user's condition. For instance, ask users to describe the nature, intensity, and duration of their symptoms, any known triggers, and any previous treatments they have tried.
+  expected_output: >
+    A detailed report of the user's symptoms and queries, including the onset, duration, intensity, and any associated symptoms or triggers. This comprehensive report will aid in accurate diagnosis and treatment planning.
+
+provide_medical_insights_task:
+  description: >
+    Provide insights on whether symptoms are serious and recommend home remedies based on text inputs. Use medical knowledge and analysis to determine the seriousness of the symptoms and suggest appropriate home remedies. For example, if a user describes symptoms of mild indigestion, recommend home remedies like eating smaller meals, avoiding spicy foods, and staying upright after eating.
+  expected_output: >
+    A report detailing the seriousness of the symptoms and recommended home remedies. This report should include a clear assessment of the potential severity of the symptoms and practical advice for home care, helping users manage their symptoms effectively.
+
+suggest_medication_usage_task:
+  description: >
+    Suggest dosage and usage instructions for common medications. Ensure that the recommendations are based on the user's symptoms and condition, providing accurate and safe dosage and usage instructions. For example, for a user with seasonal allergies, recommend the appropriate dosage of an over-the-counter antihistamine, considering any other medications the user might be taking.
+  expected_output: >
+    A detailed recommendation of dosage and usage instructions for common medications based on the user's symptoms. This recommendation should include the name of the medication, the dosage, frequency of use, and any important precautions or potential side effects to be aware of.
+
+advise_professional_help_task:
+  description: >
+    Determine when it’s necessary to seek professional medical help. Assess the symptoms and conditions to advise users on whether they need to seek professional medical intervention. For example, if a user reports severe abdominal pain and vomiting, recommend they see a doctor immediately as these could be signs of a serious condition like appendicitis.
+  expected_output: >
+    A clear recommendation on whether professional medical help is necessary, based on the user's symptoms and conditions. This recommendation should highlight the specific reasons why medical intervention is advised, ensuring users understand the urgency and importance of seeking professional care.
+
+identify_eye_disease_task:
+  description: "Use the Eye Disease Detection Tool to analyze the provided image and identify any potential eye diseases. Provide necessary steps for treatment based on the results."
+  expected_output: "A detailed report on the identified eye diseases and recommended steps for treatment."
